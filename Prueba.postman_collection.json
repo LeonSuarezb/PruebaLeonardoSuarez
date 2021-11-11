@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "6408cf1f-7e5f-4703-af01-5c20f6ab0a88",
+		"name": "Prueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Casas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lstCasas\": [0,1,1,0,1,1,1,1],\r\n    \"dias\": 200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:38729/Ejercicio1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "38729",
+					"path": [
+						"Ejercicio1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Camion",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lstPaquetes\": [10,60,40,35,20],\r\n    \"tamanioCamion\": 90\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6920/Camion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6920",
+					"path": [
+						"Camion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
